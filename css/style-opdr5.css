@@ -65,6 +65,10 @@ a{
     background-color: orange;
 }
 
+#box {
+    margin-top: 40px;
+}
+
 #links {
     display: flex;
     background-color: blue;
