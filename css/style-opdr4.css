@@ -1,3 +1,79 @@
 html, body{
+    display: flex;
+    flex-direction: column;
     height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row; /* Eigenlijk onnodig want bij elke div waarbij je de display op flex zet staat flex-direction al op row */
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    justify-content: space-evenly;
+}
+
+
+.menu-button, #foto{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    margin: 30px;
+}
+
+img{
+    width: 250px;
+    height: 60%;
+}
+
+p{
+    width: 200px;
+    height: 150px;
+}html, body{
+    height: 100%;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#yeet {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#links {
+    width: 45%;
+    background-color: red;
+}
+
+#midden {
+    width: 10%;
+}
+
+#rechts {
+    width: 45%;
+    background-color: blue;
 }
